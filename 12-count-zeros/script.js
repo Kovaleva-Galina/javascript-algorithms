@@ -7,8 +7,17 @@
 */
 
 function countZeros(n) {
-    // Напишите код здесь
-}
+    let m = Math.floor(n / 100);
+    let result = Math.floor(n / 10) + m * Math.floor((n - 1) / 100);
+    console.log(m);
+    // for (i = 1; i <= n; i*10) {s
+    //   if (((n / i) > 1 ) && ((n / i) > 1 )) {
+    //     console.log(i);
+    //   }
+    // }
+    // let result = 64;
+    return result;
+  }
 
 // Протестируйте решение, вызывая функцию с разными аргументами:
 

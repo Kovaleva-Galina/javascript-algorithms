@@ -7,8 +7,8 @@
 */
 
 function countZeros(n) {
-    let m = Math.floor(n / 100);
-    let result = Math.floor(n / 10) + m * Math.floor((n - 1) / 100);
+    const m = Math.floor(n / 100);
+    const result = Math.floor(n / 10) + m * Math.floor((n - 1) / 100);
     console.log(m);
     // for (i = 1; i <= n; i*10) {s
     //   if (((n / i) > 1 ) && ((n / i) > 1 )) {

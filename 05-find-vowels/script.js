@@ -10,7 +10,7 @@
 */
 
 function findVowels(str) {
-  arr = str.toLowerCase().split('');
+  const arr = str.toLowerCase().split('');
   let result = 0;
   for (i = 0; i < arr.length; i++) {
     if (arr[i] === 'а' || arr[i] === 'я' || arr[i] === 'о' || arr[i] === 'ё' || arr[i] === 'у' || arr[i] === 'ю' || arr[i] === 'и' || arr[i] === 'э' || arr[i] === 'е') {

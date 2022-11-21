@@ -13,12 +13,12 @@ function capitalize(str) {
     return arrString;
   }
 
-  arr = str.trimRight().split(' ');
+  const arr = str.trimRight().split(' ');
 
   for (let i = 0; i < arr.length; i++) {
-    minArr = arr[i].split('');
+    const minArr = arr[i].split('');
     minArr[0] = minArr[0].toUpperCase();
-    minArrString = minArr.join('');
+    const minArrString = minArr.join('');
     arrString += ' ' + minArrString;
   }
   arrString = arrString.slice(1);

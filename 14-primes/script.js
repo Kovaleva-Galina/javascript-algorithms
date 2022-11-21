@@ -7,7 +7,7 @@
 */
 
 function primes(num) {
-  res = [2];
+  let res = [2];
   if (num <= 1) {
     return [];
   }
